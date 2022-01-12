@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ApolloProvider client={client}>
       <Navbar />
-      <div className='h-6'></div>
+      <div className='h-8'></div>
       <Component {...pageProps} />
     </ApolloProvider>
   );
